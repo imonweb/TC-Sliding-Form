@@ -8,7 +8,45 @@
   <title>TC Sliding Login Form</title>
 </head>
 <body>
-  
+  <main>
+    <div class="box">
+      <div class="box__inner">
+        <div class="forms__wrap">
+          <form action="index.html" autocomplete="off" class="sign-in-form">
+            <div class="logo">
+              <img src="./images/logo.png" alt="easyclass" class="logo">
+              <h4>easyclass</h4>
+            </div>
+            <div class="heading">
+              <h2>Welcome Back</h2>
+              <h6>Not registered yet?</h6>
+              <a href="#" class="toggle">Sign up</a>
+            </div>
+
+            <div class="actual-form">
+              <div class="input-wrap">
+                <input id="name" min-lenght="4" type="text" class="input-field" autocomplete="off" required>
+                <label for="name">Name</label>
+              </div> <!-- input-wrap -->
+              <div class="input-wrap">
+                <input id="pass" min-lenght="4" type="text" class="input-field" autocomplete="off" required>
+                <label for="pass">Password</label>
+              </div> <!-- input-wrap -->
+
+              <input type="submit" value="Sign In" class="sign-btn">
+
+              <p class="text">
+                Forgotten your password or your login details?
+                <a href="#">Get help</a> signing in
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <div class="carousel"></div>
+      </div>
+    </div> <!-- box -->
+  </main>
 
   <script src="app.js"></script>
 </body>
